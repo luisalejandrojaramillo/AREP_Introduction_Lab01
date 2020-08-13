@@ -8,7 +8,7 @@ Este programa calcula la Media y la Desviacion Estandar (D.E) de un conjunto de 
 
 ## Instalación
 1. Abrimos una terminal
-2. Clonamos el repisitorio
+2. Clonamos el repositorio
 ```
 https://github.com/luisalejandrojaramillo/AREP_Introduction_Lab01
 ```

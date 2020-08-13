@@ -20,3 +20,10 @@ cd AREP_Introduction_Lab01
 ```
 mvn package
 ```
+5. Ejecutamos 
+```
+java -cp target/Lab01-1.0-SNAPSHOT.jar edu.escuelaing.arep.App
+```
+
+## Autor
+Luis Alejandro Jaramillo Rincon

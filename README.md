@@ -24,6 +24,8 @@ mvn package
 ```
 java -cp target/Lab01-1.0-SNAPSHOT.jar edu.escuelaing.arep.App
 ```
-
+## License
+[MIT License ](/LICENSE)
 ## Autor
 Luis Alejandro Jaramillo Rincon
+ 

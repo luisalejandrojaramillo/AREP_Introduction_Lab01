@@ -2,20 +2,27 @@ package edu.escuelaing.arep;
 
 
 public class LinkedList {
+    // Creamos la cabeza de la lista
     Node head;
+    /**
+     * Creamos la clase del Nodo la cual inicializamos y creamos contructor
+     */
     public static class Node {
-        final double data;
+        final double numeros;
         Node next;
-        Node(double d){
-            data=d;
-            next=null;
+        Node(double dat){
+            next=null;numeros=dat;
         }
     }
 
-    public static void newNode(LinkedList list,double data){
-        Node node = new Node(data);
-        node.next = null;//Siguiente
-
+    /**
+     * Para añadir un nodo a la lista encadenada (LinkedList)
+     * @param list (LinkedList)
+     * @param numeros (Double)
+     */
+    public static void newNode(LinkedList list,double numeros){
+        Node node = new Node(numeros);
+        node.next = null;
         if(list.head==null){
             list.head=node;
         }else{
@@ -27,12 +34,4 @@ public class LinkedList {
         }
     }
 
-    public static void printList(LinkedList list){
-        Node node = list.head;
-        System.out.println("---Lista---");
-        while (node!=null){
-            System.out.println(node.data+" ");
-            node=node.next;
-        }
-    }
 }

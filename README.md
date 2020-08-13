@@ -24,6 +24,8 @@ mvn package
 ```
 java -cp target/Lab01-1.0-SNAPSHOT.jar edu.escuelaing.arep.App
 ```
+## Modelo
+![](img/modelo.PNG)
 ## License
 [MIT License ](/LICENSE)
 ## Autor

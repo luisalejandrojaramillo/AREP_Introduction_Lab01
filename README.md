@@ -24,6 +24,8 @@ mvn package
 ```
 java -cp target/Lab01-1.0-SNAPSHOT.jar edu.escuelaing.arep.App
 ```
+## Reporte de Laboratorio
+[Reporte](/Lab01LaTexAREP.pdf)
 ## Modelo
 ![](img/modelo.PNG)
 ## License
